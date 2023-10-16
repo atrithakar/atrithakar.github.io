@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atri Thakar - Programmer, AI/ML Enthusiast, Web Developer</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="left logo"><span style="color: red;">A</span>tri Thakar.</div>
+        <div class="rig">
+            <ul>
+                <li><a href="/html/about.html">About Me</a></li>
+                <li><a href="/html/projects.html">My Projects</a></li>
+                <li><a href="/html/myresume">My Resume</a></li>
+                <li><a href="/html/skills.html">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="firstsection">
+        <section class="leftsection">
+            <div class="hello">Hello,</div>
+            <div class="iam">I am</div>
+            <div class="name">Atri Thakar</div>
+            <span id="element"></span>
+        </section>
+        <section class="rightsection">
+            <img src="/img/programmer.png" alt="Programmer Image">
+        </section>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Programmer', 'AI/ML Enthusiast','Web Developer'],
+        typeSpeed: 70,
+        loop: true
+      });
+    </script>
+</body>
+</html>
