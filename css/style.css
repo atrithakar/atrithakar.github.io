@@ -44,13 +44,16 @@ a {
 }
 
 .rightsection {
+    /* background-color: aliceblue; */
     position: relative;
     top: 100px;
 }
 
 .leftsection {
+    /* background-color: red; */
     position: relative;
     top: 75px;
+    /* max-width: 40vw; */
 }
 
 img {
@@ -82,3 +85,60 @@ img {
       
     }
 }
+@media only screen and (min-width: 960px) {
+    /* For mobile phones: */
+    .hello {
+        font-size: 2rem;
+    }
+    
+    .iam {
+        font-size: 1.5rem;
+    }
+    
+    .name {
+        font-size: 3.2rem;
+        /* color: red; */
+    }
+    #element{
+        font-size: 1.5rem;
+    }
+    .typed-cursor{
+        font-size: 1.5rem;
+    }
+}
+
+.about{
+    /* position: absolute; */
+    /* top:-px; */
+    /* right:20px; */
+    /* background-color: aliceblue; */
+}
+.para{
+    /* background-color: red; */
+    width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.firstaboutsection{
+    /* display: flex; */
+    /* justify-content: center; */
+    
+
+    /* background-color: gainsboro; */
+}
+
+.upsection{
+    width:90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list{
+    list-style:disc;
+    font-size: 1.4rem;
+}
+
+
