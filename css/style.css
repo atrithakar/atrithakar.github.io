@@ -56,7 +56,12 @@ a {
     /* max-width: 40vw; */
 }
 
-.home, .about{
+.about{
+    width: 32vw;
+    min-width: 285px;
+    /* min-width: 310px; */
+}
+.home{
     width: 32vw;
     min-width: 285px;
     /* min-width: 310px; */
@@ -107,12 +112,7 @@ a {
     }
 }
 
-.about{
-    /* position: absolute; */
-    /* top:-px; */
-    /* right:20px; */
-    /* background-color: aliceblue; */
-}
+
 .para{
     /* background-color: red; */
     width: 90vw;
@@ -121,13 +121,6 @@ a {
     text-align: justify;
 }
 
-.firstaboutsection{
-    /* display: flex; */
-    /* justify-content: center; */
-    
-
-    /* background-color: gainsboro; */
-}
 
 .upsection{
     width:90vw;
