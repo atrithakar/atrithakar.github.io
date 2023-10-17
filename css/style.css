@@ -56,7 +56,7 @@ a {
     /* max-width: 40vw; */
 }
 
-img {
+.home, .about{
     width: 32vw;
     min-width: 285px;
     /* min-width: 310px; */
@@ -140,5 +140,108 @@ img {
     list-style:disc;
     font-size: 1.4rem;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width:15rem;
+    height:15rem;
+    /* background-color: red; */
+    border: 3px solid white;
+    border-radius: 20px;
+    /* display: flex; */
+    margin: 10px
+}
 
+.pic{
+    width:15rem;
+    height: 10rem;
+    /* background: transparent; */
+    /* opacity: 100%; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width:15rem;
+    height: 4rem;
+    /* background-color:aqua; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 2px solid white;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.skillimg1{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg2{
+        width: 10rem;
+        height: 3rem;
+
+}
+.skillimg3{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg4{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg5{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg6{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg7{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg8{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg9{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg10{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg11{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg12{
+        max-width: auto;
+        height: 8rem;
+
+}
+.skillimg13{
+        max-width: auto;
+        height: 8rem;
+
+}
 
