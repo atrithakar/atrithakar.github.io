@@ -175,6 +175,9 @@ a {
     border-bottom-right-radius: 20px;
     border-top: 2px solid white;
     text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 .red{
     color: red;
@@ -188,4 +191,43 @@ a {
         width: 10rem;
         height: 3rem;
 
+}
+.pinfo{
+    width:15rem;
+    height: 6rem;
+    /* background-color:aqua; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 2px solid white;
+    text-align: center;
+    /* display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* padding-top: 5px; */
+}
+.pcard{
+    width:15rem;
+    height:17rem;
+    /* background-color: red; */
+    border: 3px solid white;
+    border-radius: 20px;
+    /* display: flex; */
+    margin: 10px
+}
+
+.pa{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.pa:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: red;
+    transition: 0.3s;
+}
+a{
+    transition: 0.3s;
 }
