@@ -55,17 +55,30 @@ a {
 
 img {
     width: 32vw;
+    min-width: 285px;
+    /* min-width: 310px; */
 }
 
 .hello {
-    font-size: 2.5vw;
+    font-size: 1.5rem;
 }
 
 .iam {
-    font-size: 2.4vw;
+    font-size: 1rem;
 }
 
 .name {
-    font-size: 4vw;
-    color: red;
+    font-size: 2.7rem;
+    /* color: red; */
+}
+#element{
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 520px) {
+    /* For mobile phones: */
+    .leftsection {
+      top: 150px;
+      
+    }
 }
