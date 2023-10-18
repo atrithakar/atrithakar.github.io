@@ -20,6 +20,15 @@ nav {
     nav{
         justify-content: center;
         width: 90vw;
+        /* flex-wrap: nowrap; */
+
+    }
+}
+@media only screen and (max-width: 504px){
+    ul{
+        justify-content: center;
+        width: 90vw;
+        /* flex-wrap: nowrap; */
 
     }
 
@@ -28,8 +37,8 @@ nav {
 ul {
     display: flex;
     flex-wrap: wrap;
-    /* max-width: 90vw;
-    justify-content: space-evenly; */
+    max-width: 90vw;
+    justify-content: space-evenly;
 }
 
 li {
