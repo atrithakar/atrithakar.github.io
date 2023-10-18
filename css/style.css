@@ -243,3 +243,12 @@ a{
     width: 30vw;
     min-width: 285px;
 }
+@media only screen and (min-width: 520px) and (max-width: 569px) {
+    /* For mobile phones: */
+    .c{
+        /* background-color: aliceblue; */
+        position: relative;
+        top:95px;
+    }
+    
+}
