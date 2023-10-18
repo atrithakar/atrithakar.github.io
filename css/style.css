@@ -252,3 +252,26 @@ a{
     }
     
 }
+
+hr{
+    height: 1px;
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+       }
+      to {
+       transform: rotate(359deg);
+      }
+    
+}
+
+.rotate{
+    animation: rotateImg 10s linear infinite;
+}
