@@ -231,3 +231,15 @@ a:hover{
 a{
     transition: 0.3s;
 }
+.social{
+    width: 2rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.contact{
+    width: 30vw;
+    min-width: 285px;
+}
